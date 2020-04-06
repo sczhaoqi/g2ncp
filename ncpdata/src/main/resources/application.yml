@@ -1,0 +1,18 @@
+server:
+  port: 8080
+social:
+  github:
+    clientId:
+    clientSecret:
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+    preEstablishedRedirectUri: http://localhost/user/githubLogin
+    userInfoUri: https://api.github.com/user
+logging:
+  level:
+    root: info
+jwt:
+  expiration: 2590000
+  secret: cccasdsadssadsadsadsdas
+  header: Bearer
